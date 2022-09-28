@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Calculator</string>
+    <string name="introduzca_el_primer_n_mero">Type the first value:</string>
+    <string name="bienvenidos_a_mi_app_calculadora">Welcome to My Calculator APP</string>
+    <string name="introduzca_el_segundo_n_mero">Type the second value:</string>
+    <string name="sumar">Add</string>
+    <string name="restar">Sub</string>
+    <string name="mult">Mpy</string>
+    <string name="dividir">Div</string>
+    <string name="el_resultado_de_la_operacion_es">The result of the operation is:</string>
+    <string name="n_mero">Number</string>
+    <string name="Toast">Type the values that you are going to calculate</string>
+</resources>

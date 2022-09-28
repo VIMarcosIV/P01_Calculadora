@@ -9,4 +9,5 @@
     <string name="dividir">Dividir</string>
     <string name="el_resultado_de_la_operacion_es">El resultado de la operacion es:</string>
     <string name="n_mero">Número</string>
+    <string name="Toast">Introduce los valores con los que vas a operar</string>
 </resources>
