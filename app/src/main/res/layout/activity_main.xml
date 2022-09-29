@@ -2,6 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
     </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,7 +34,8 @@
             android:layout_height="wrap_content"
             android:text="@string/introduzca_el_primer_n_mero"
             android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:paddingLeft="7dp"/>
 
         <EditText
             android:id="@+id/ETprimerValor"
@@ -42,7 +44,8 @@
             android:hint="@string/n_mero"
             android:paddingBottom="10dp"
             android:textSize="10sp"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal"
+            android:paddingLeft="7dp"/>
 
         <TextView
             android:id="@+id/TVsegundoValor"
@@ -50,7 +53,8 @@
             android:layout_height="wrap_content"
             android:text="@string/introduzca_el_segundo_n_mero"
             android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:paddingLeft="7dp"/>
 
         <EditText
             android:id="@+id/ETsegundoValor"
@@ -59,7 +63,8 @@
             android:hint="@string/n_mero"
             android:paddingBottom="10dp"
             android:textSize="10sp"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal"
+            android:paddingLeft="7dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,6 +78,7 @@
                 android:layout_weight="1"
                 android:text="@string/sumar"
                 android:textSize="8sp"
+                android:layout_marginHorizontal="5dp"
                 />
 
             <Button
@@ -82,6 +88,7 @@
                 android:layout_weight="1"
                 android:text="@string/restar"
                 android:textSize="8sp"
+                android:layout_marginHorizontal="5dp"
                 />
 
             <Button
@@ -91,6 +98,7 @@
                 android:layout_weight="1"
                 android:text="@string/mult"
                 android:textSize="8sp"
+                android:layout_marginHorizontal="5dp"
                 />
 
             <Button
@@ -100,6 +108,7 @@
                 android:layout_weight="1"
                 android:text="@string/dividir"
                 android:textSize="8sp"
+                android:layout_marginHorizontal="5dp"
                 />
 
         </LinearLayout>
@@ -111,6 +120,7 @@
             android:text="@string/el_resultado_de_la_operacion_es"
             android:textSize="16sp"
             android:paddingTop="15dp"
+            android:paddingLeft="7dp"
             />
 
         <TextView
@@ -118,7 +128,8 @@
             android:layout_width="match_parent"
             android:layout_height="326dp"
             android:paddingTop="15dp"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:gravity="center"/>
     </LinearLayout>
 </layout>
 
